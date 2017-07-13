@@ -2,7 +2,7 @@ FROM node:6
 MAINTAINER Luis Lopes
 
 RUN apt-get update
-RUN apt-get install -y ruby-sass
+RUN apt-get install -y locales ruby-sass
 
 RUN locale-gen "en_US.UTF-8"
 ENV LC_CTYPE=en_US.UTF-8
