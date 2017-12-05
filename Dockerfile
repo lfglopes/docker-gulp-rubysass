@@ -1,4 +1,4 @@
-FROM node:7
+FROM node:8
 MAINTAINER Luis Lopes
 
 RUN apt-get update
